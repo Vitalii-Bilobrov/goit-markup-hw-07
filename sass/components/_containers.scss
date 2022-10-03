@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .container {
+  display: flex;
+  height: 80px;
+}
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  border-top: 1px solid var(--color-ghostWhite1);
+}
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--color-darckGray);
+}
+.section-footer__container {
+  display: flex;
+  align-items: baseline;
+}
