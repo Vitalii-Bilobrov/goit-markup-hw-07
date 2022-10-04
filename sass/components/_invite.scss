@@ -34,13 +34,15 @@
   transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus{
+    background-color: var(--color-mainBlue);
+  }
 }
 .invite-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--color-mainWhite);
 }
-.invite-list__link:hover,
-.invite-list__link:focus {
-  background-color: var(--color-mainBlue);
-}
+

@@ -21,11 +21,13 @@
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus{
+    color: var(--color-mainBlue);
+  }
 }
 .address-list__link--white {
   color: var(--color-mainWhite);
 }
-.address-list__link:hover,
-.address-list__link:focus {
-  color: var(--color-mainBlue);
-}
+

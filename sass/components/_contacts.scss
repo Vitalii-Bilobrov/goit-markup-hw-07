@@ -23,29 +23,18 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus{
+    color: var(--color-mainBlue);
+  }
 }
-.contact__item:last-child {
+.contacts__item:last-child {
   margin-left: 50px;
 }
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--color-mainBlue);
-}
-.contacts__icon--first {
-  display: inline-block;
-
-  width: 16px;
-  height: 12px;
+.contacts__icon {
   margin-right: 10px;
 
   fill: currentColor;
 }
-.contacts__icon--second {
-  display: inline-block;
 
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-
-  fill: currentColor;
-}

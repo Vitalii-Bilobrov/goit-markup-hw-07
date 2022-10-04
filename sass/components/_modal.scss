@@ -26,6 +26,11 @@
   background-color: var(--color-mainWhite);
   cursor: pointer;
   color: var(--color-mainBlack);
+
+  &:hover,
+  &:focus{
+    color: var(--color-mainBlue);
+  }
 }
 .close-button__icon {
   width: 18px;
@@ -33,10 +38,6 @@
 
   fill: currentColor;
 }
-.close-button:hover {
-  color: var(--color-mainBlue);
-}
-
 .signup-form {
   display: flex;
   flex-direction: column;

@@ -27,11 +27,12 @@
   transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-networks__link:hover,
-.social-networks__link:focus {
-  background-color: var(--color-mainBlue);
-  color: var(--color-mainWhite);
+
+  &:hover,
+  &:focus{
+    background-color: var(--color-mainBlue);
+    color: var(--color-mainWhite);
+  }
 }
 .social-networks__icon {
   width: 20px;

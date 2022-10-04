@@ -34,6 +34,12 @@
   transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus{
+    color: var(--color-mainBlue);
+    border-color: var(--color-mainBlue);
+  }
 }
 .client-item__image {
   display: block;
@@ -43,8 +49,4 @@
 
   fill: currentColor;
 }
-.client-item__link:hover,
-.client-item__link:focus {
-  color: var(--color-mainBlue);
-  border-color: var(--color-mainBlue);
-}
+
